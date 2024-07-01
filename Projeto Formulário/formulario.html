@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Faça o pedido para reservar seu livro</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="imagem-da-logo">
+                <img src="Captura de tela 2024-06-28 113718.png" alt="Logo da livraria leitura">
+            </div>
+        </header>
+
+        <h4>Preencha as informações</h4>
+
+        <div class="input">
+            <label for="date">Seu nome</label>
+            <input type="name" id="name" name="name" placeholder="Nome"><br><br>
+
+            <label for="date">Seu Email</label>
+            <input type="email" id="email" name="email" placeholder="Email"><br><br>
+
+            <label for="number">Digite seu CPF</label>
+            <input type="number" id="number" name="number" placeholder="CPF"><br><br>
+
+            <label for="date">Qual livro gostaria de reservar?</label>
+            <input type="livro" id="livro" name="livro" placeholder="Livro"><br><br>
+
+            <label for="date">Qual seria a data que você gostaria de reservar?</label>
+            <input type="datetime-local" id="data" name="data" placeholder="Data">
+        </div>
+
+        <div class="radios">
+            <input type="radio" name="lugar"> 
+            <label for="checkbox">Retirar na livraria</label>
+
+            <input type="radio" name="lugar"> 
+            <label for="checkbox">Pedir entrega</label>
+        </div>
+
+        <div class="botao">
+            <button >Enviar</button>
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
