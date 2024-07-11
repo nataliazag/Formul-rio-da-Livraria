@@ -72,3 +72,7 @@ button{
 .botao{
     align-items: center;
 }
+
+.termos{
+    text-align: right;
+}
